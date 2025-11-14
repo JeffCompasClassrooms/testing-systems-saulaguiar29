@@ -30,4 +30,4 @@ jobs:
 
       - name: Run system tests
         run: |
-          pytest test_squirrel_server.py --spec -v
+          pytest test_squirrel_server.py -v
