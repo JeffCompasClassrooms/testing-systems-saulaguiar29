@@ -7,7 +7,7 @@ import pytest
 import requests
 from pytest import fixture
 
-BASE_URL = "http://127.0.0.1:8080"
+BASE_URL = "http://127.0.0.1:8082"
 DB_FILE = "squirrel_db.db"
 TEMPLATE_DB = "squirrel_db_template.db"
 

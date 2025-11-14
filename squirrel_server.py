@@ -123,8 +123,8 @@ class SquirrelServerHandler(BaseHTTPRequestHandler):
         self.wfile.write(bytes("404 Not Found", "utf-8"))
 
 def run():
-    print("squirrel_server running at 127.0.0.1:8080")
-    listen = ("127.0.0.1", 8080)
+    print("squirrel_server running at 127.0.0.1:8082")
+    listen = ("127.0.0.1", 8082)
     server = HTTPServer(listen, SquirrelServerHandler)
     server.serve_forever()
 
